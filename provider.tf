@@ -19,7 +19,7 @@ resource"azurerm_resource_group""rg1"{
 resource "azurerm_storage_account" "sa1" {
   name ="mmm3332"
   location = "centralindia"
-  account_replication_type = "LRS"
+  account_replication_type = "GRS"
 accouaccess_tier = "Standard" 
 resource_group_name="maneesh" 
 }
